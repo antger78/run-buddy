@@ -9,43 +9,88 @@
     
     <body>
 
-        <header>
+            <!--Section 1 (Header)-->
+            <header>
         
-        <H1>
-           <a href="/">RUN BUDDY</a> 
-        </H1>
+                <H1>
+                <a href="/">RUN BUDDY</a> 
+                </H1>
 
 
-        <nav>
-            <!--List of navigation elements-->
-            <ul>
-                <!--Each item will include a link to their place in the page-->
-                <li>
-                    <a href="#What-We-Do">What We Do</a>
-                </li>
+                <nav>
+                 <!--List of navigation elements-->
+                <ul>
+                    <!--Each item will include a link to their place in the page-->
+                     <li>
+                        <a href="#What-We-Do">What We Do</a>
+                    </li>
 
-                <li>
-                    <a href="#What-You-Do">What You Do</a>
-                </li>
+                    <li>
+                        <a href="#What-You-Do">What You Do</a>
+                    </li>
 
-                <li>
-                    <a href="#Meet-the-Trainers">Meet the Trainers</a>
-                </li>
+                     <li>
+                        <a href="#Meet-the-Trainers">Meet the Trainers</a>
+                    </li>
 
-                <li>
-                    <a href="#Reach-Out">Reach Out</a>
-                </li>
+                    <li>
+                        <a href="#Reach-Out">Reach Out</a>
+                    </li>
 
-            </ul>
+                </ul>
 
-        </nav>
+                </nav>
 
-        </header>
+            </header>
                 
                 
             <!--SECTION 2 (IMG)-->
             <section>
-                <!--Insert large image-->
+                <div>
+                    <h3>
+                    Get Started Today
+                    </h3>
+
+                    <p>
+                    Fill out this form and one of our trainers will schedule a consult
+                    </p>
+
+                    <form>
+                        <label for="name">Enter Full Name</label>
+                        <input type="text" placeholder="Your Name" name="name" id="name"/>
+                        
+                        <label for="email">Enter Email Address</label>
+                        <input type="email" placeholder="Email Address" name="email" id="email"/>
+                        
+                        <label for="phone">Enter a Telephone Number</label>
+                        <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+
+                        <p>
+                            Have you worked with a trainer before?
+                            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                            <label for="trainer-yes">Yes</label>
+                            
+                            <input type="radio" name="trainer-confirm" id="trainer-no" />
+                            <label for="trainer-no">No</label>
+
+                        </p>
+
+                        <p>
+
+                            <label for="checkbox" >
+                            I acknowlded that I am at least 18 years of age
+                            </label>
+                            <input type="checkbox" name="age-confirm" id="checkbox" />
+
+                        </p>
+                        
+                        <button type="submit">
+                            Get running!
+                        </button>
+
+                    </form>
+
+                </div>
             </section>
 
             <!--SECTION 3 (WHAT WE DO)-->
@@ -77,7 +122,7 @@
 
             <!--SECTION 7 (MADE W/LOVE)-->
             <footer>
-                
+
                 <h2>❤️ Made with love by Run Buddy.</h2>
                 <div>
 
