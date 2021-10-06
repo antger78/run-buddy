@@ -116,3 +116,7 @@ section {
     margin-bottom: 15px;
     padding: 7px 15px;
 }
+
+.hero-form label{
+    margin: 0 5px;
+}
